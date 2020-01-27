@@ -4,7 +4,7 @@
 #include <Windows.h>
 
 using namespace std;
-
+//test
 bool gra=true;
 bool gra1=true;
 char kwadracik=0xDB;
