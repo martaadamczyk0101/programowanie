@@ -18,9 +18,9 @@ void kolor(int n)
 
 void start_gry()
 {
-    string poczatek = "Witaj w grze labirynt!";
-    string zasady = "Aby wygrac musisz dostac sie do ";
-    string graj="Kliknij dowolny przycisk, zeby zagrac";
+    string poczatek = "Welcome to the maze!";
+    string zasady = "To win you need to get to  ";
+    string graj="press any button to play";
     char cel=0xFE;
 
     cout<<endl<<endl<<endl<<endl<<endl<<"\t\t\t\t\t      ";
@@ -366,7 +366,7 @@ void ruch()
 
 void poziom2()
 {
-    string nastepny="Gratulacje! Udalo ci sie przejsc poziom 1!";
+    string nastepny="Congratulations! Level 1 is completed!";
     cout<<endl<<"\t\t\t\t       ";
 
     for(int i=0;i<42;i++)
@@ -376,7 +376,7 @@ void poziom2()
     }
     cout<<endl<<endl<<"\t\t\t\t  ";
 
-    string kliknij="Kliknij dowolny przycisk, zeby przejsc do poziomu 2";
+    string kliknij="press any button to get to level 2";
 
     for(int i=0;i<51;i++)
     {
@@ -389,7 +389,7 @@ void poziom2()
 
 void koniec_gry()
 {
-    string koniec="Gratulacje! Koniec gry!";
+    string koniec="Congratulations, you've made it!";
     cout<<endl<<"\t\t\t\t\t\t";
     for(int i=0;i<23;i++)
     {
